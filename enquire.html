@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enquire - FlashFrame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('7.jpg');">
+    <header>
+        <h1>Product Enquiry Form</h1>
+    </header>
+
+   <!-- Navigation Bar -->
+<nav style="
+    width: 100%;
+    background: #111;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    font-family: Arial, sans-serif;
+">
+    <div style="max-width: 1100px; margin: auto; display: flex; align-items: center; justify-content: space-between; padding: 0 20px;">
+        
+        <!-- Logo -->
+        <h2 style="color: #fff; margin: 0; font-size: 24px;">Flash Frame Studio</h2>
+        
+        <!-- Links -->
+        <div>
+            <a href="index1.html" style="color:#fff; margin-right: 20px; text-decoration:none; font-size: 16px;">Home</a>
+            <a href="product.html" style="color:#fff; margin-right: 20px; text-decoration:none; font-size: 16px;">Product</a>
+            <a href="about.html" style="color:#fff; margin-right: 20px; text-decoration:none; font-size: 16px;">About</a>
+            <a href="enquire.html" style="color:#fff; margin-right: 20px; text-decoration:none; font-size: 16px;">Enquiry</a>
+            
+            <a href="Job.html" style="color:#fff; margin-right: 20px; text-decoration:none; font-size: 16px;">Jobs</a>
+            <a href="other.html" style="color:#fff; margin-right: 20px; text-decoration:none; font-size: 16px;">Services</a>
+             <a href="class.html" style="color:#fff; margin-right: 20px; text-decoration:none; font-size: 16px;">Classes</a>
+            <a href="contact.html" style="color:#fff; text-decoration:none; font-size: 16px;">Contacts</a>
+
+        </div>
+
+    </div>
+</nav>
+
+<!-- Add some spacing so content doesn't hide behind fixed navbar -->
+<div style="height: 80px;"></div>
+
+    <div class="container">
+        <form action="#" method="post">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="service">Service Interested In:</label><br>
+            <select id="service" name="service">
+                <option value="wedding">Wedding</option>
+                <option value="portrait">Portrait</option>
+                <option value="event">Event</option>
+                <option value="product">Product</option>
+            </select><br><br>
+
+            <label for="message">Additional Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+<footer>
+        <p style="color: blue; font-size:60%; text-align: right; ">Flash Frame Photoshoot Studio</p>
+    </footer>
+    
+</body>
+</html>
